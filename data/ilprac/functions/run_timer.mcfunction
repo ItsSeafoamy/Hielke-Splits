@@ -1,0 +1,19 @@
+scoreboard players add @s global_il 1
+scoreboard players add @s ticks_il 1
+
+scoreboard players add @s[scores={ticks_il=20..}] seconds_il 1
+scoreboard players set @s[scores={ticks_il=20..}] ticks_il 0
+
+scoreboard players add @s[scores={seconds_il=60..}] minutes_il 1
+scoreboard players set @s[scores={seconds_il=60..}] seconds_il 0
+
+execute as @s[scores={seconds_il=10..}] run execute as @s[scores={minutes_il=10..}] run execute as @s[scores={ticks_il=10..}] run title @s actionbar ["",{"text":"Time : ","color":"gray"},{"score":{"name":"@s","objective":"minutes_il"},"color":"gray"},      {"text":":","color":"gray"},{"score":{"name":"@s","objective":"seconds_il"},"color":"gray"},     {"text":".","color":"gray"},{"score":{"name":"@s","objective":"ticks_il"},"color":"gray"}]
+execute as @s[scores={seconds_il=10..}] run execute as @s[scores={minutes_il=10..}] run execute as @s[scores={ticks_il=..9}] run title @s actionbar ["",{"text":"Time : ","color":"gray"},{"score":{"name":"@s","objective":"minutes_il"},"color":"gray"},      {"text":":","color":"gray"},{"score":{"name":"@s","objective":"seconds_il"},"color":"gray"},     {"text":".0","color":"gray"},{"score":{"name":"@s","objective":"ticks_il"},"color":"gray"}]
+execute as @s[scores={seconds_il=..9}] run execute as @s[scores={minutes_il=10..}] run execute as @s[scores={ticks_il=10..}] run title @s actionbar ["",{"text":"Time : ","color":"gray"},{"score":{"name":"@s","objective":"minutes_il"},"color":"gray"},      {"text":":0","color":"gray"},{"score":{"name":"@s","objective":"seconds_il"},"color":"gray"},     {"text":".","color":"gray"},{"score":{"name":"@s","objective":"ticks_il"},"color":"gray"}]
+execute as @s[scores={seconds_il=..9}] run execute as @s[scores={minutes_il=10..}] run execute as @s[scores={ticks_il=..9}] run title @s actionbar ["",{"text":"Time : ","color":"gray"},{"score":{"name":"@s","objective":"minutes_il"},"color":"gray"},      {"text":":0","color":"gray"},{"score":{"name":"@s","objective":"seconds_il"},"color":"gray"},     {"text":".0","color":"gray"},{"score":{"name":"@s","objective":"ticks_il"},"color":"gray"}]
+
+execute as @s[scores={seconds_il=10..}] run execute as @s[scores={minutes_il=..9}] run execute as @s[scores={ticks_il=10..}] run title @s actionbar ["",{"text":"Time : ","color":"gray"},{"score":{"name":"@s","objective":"minutes_il"},"color":"gray"},      {"text":":","color":"gray"},{"score":{"name":"@s","objective":"seconds_il"},"color":"gray"},     {"text":".","color":"gray"},{"score":{"name":"@s","objective":"ticks_il"},"color":"gray"}]
+execute as @s[scores={seconds_il=10..}] run execute as @s[scores={minutes_il=..9}] run execute as @s[scores={ticks_il=..9}] run title @s actionbar ["",{"text":"Time : ","color":"gray"},{"score":{"name":"@s","objective":"minutes_il"},"color":"gray"},      {"text":":","color":"gray"},{"score":{"name":"@s","objective":"seconds_il"},"color":"gray"},     {"text":".0","color":"gray"},{"score":{"name":"@s","objective":"ticks_il"},"color":"gray"}]
+execute as @s[scores={seconds_il=..9}] run execute as @s[scores={minutes_il=..9}] run execute as @s[scores={ticks_il=10..}] run title @s actionbar ["",{"text":"Time : ","color":"gray"},{"score":{"name":"@s","objective":"minutes_il"},"color":"gray"},      {"text":":0","color":"gray"},{"score":{"name":"@s","objective":"seconds_il"},"color":"gray"},     {"text":".","color":"gray"},{"score":{"name":"@s","objective":"ticks_il"},"color":"gray"}]
+execute as @s[scores={seconds_il=..9}] run execute as @s[scores={minutes_il=..9}] run execute as @s[scores={ticks_il=..9}] run title @s actionbar ["",{"text":"Time : ","color":"gray"},{"score":{"name":"@s","objective":"minutes_il"},"color":"gray"},      {"text":":0","color":"gray"},{"score":{"name":"@s","objective":"seconds_il"},"color":"gray"},     {"text":".0","color":"gray"},{"score":{"name":"@s","objective":"ticks_il"},"color":"gray"}]
+
