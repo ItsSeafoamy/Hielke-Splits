@@ -32,6 +32,7 @@ scoreboard players set @s[scores={lvl29_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl30_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl31_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl32_best_il=2147483647}] sob_test 1
+scoreboard players set @s[scores={lvl33_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl34_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl35_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl36_best_il=2147483647}] sob_test 1
@@ -70,6 +71,7 @@ scoreboard players set @s[scores={lvl68_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl69_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl70_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl71_best_il=2147483647}] sob_test 1
+scoreboard players set @s[scores={lvl72_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl73_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl74_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl75_best_il=2147483647}] sob_test 1

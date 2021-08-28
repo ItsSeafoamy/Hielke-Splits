@@ -449,6 +449,7 @@ scoreboard objectives add ticks_il dummy
 scoreboard objectives add minutes_il dummy
 scoreboard objectives add seconds_il dummy
 scoreboard objectives add il_pb dummy
+scoreboard objectives add il_level dummy
 
 scoreboard objectives add il1 trigger
 scoreboard objectives add il2 trigger
