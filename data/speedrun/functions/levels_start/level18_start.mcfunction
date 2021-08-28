@@ -18,6 +18,3 @@ tag @s remove positive_delta_bpe
 tag @s remove negative_delta_bpe
 tag @s remove positive_delta_pb
 tag @s remove negative_delta_pb
-
-#RESET LEVEL 17
-setblock 109 38 314 minecraft:spruce_door[facing=west, hinge=left, open=false]
