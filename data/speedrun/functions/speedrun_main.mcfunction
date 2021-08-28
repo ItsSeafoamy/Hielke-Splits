@@ -35,8 +35,7 @@ execute as @a[scores={level=29}, tag=level28] run function speedrun:levels_start
 execute as @a[scores={level=30}, tag=level29] run function speedrun:levels_start/level30_start
 execute as @a[scores={level=31}, tag=level30] run function speedrun:levels_start/level31_start
 execute as @a[scores={level=32}, tag=level31] run function speedrun:levels_start/level32_start
-execute as @a[scores={level=33}, tag=level32] run function speedrun:levels_start/level33_start
-execute as @a[scores={level=34}, tag=level33] run function speedrun:levels_start/level34_start
+execute as @a[scores={level=34}, tag=level32] run function speedrun:levels_start/level34_start
 execute as @a[scores={level=35}, tag=level34] run function speedrun:levels_start/level35_start
 execute as @a[scores={level=36}, tag=level35] run function speedrun:levels_start/level36_start
 execute as @a[scores={level=37}, tag=level36] run function speedrun:levels_start/level37_start
@@ -74,8 +73,7 @@ execute as @a[scores={level=68}, tag=level67] run function speedrun:levels_start
 execute as @a[scores={level=69}, tag=level68] run function speedrun:levels_start/level69_start
 execute as @a[scores={level=70}, tag=level69] run function speedrun:levels_start/level70_start
 execute as @a[scores={level=71}, tag=level70] run function speedrun:levels_start/level71_start
-execute as @a[scores={level=72}, tag=level71] run function speedrun:levels_start/level72_start
-execute as @a[scores={level=73}, tag=level72] run function speedrun:levels_start/level73_start
+execute as @a[scores={level=73}, tag=level71] run function speedrun:levels_start/level73_start
 execute as @a[scores={level=74}, tag=level73] run function speedrun:levels_start/level74_start
 execute as @a[scores={level=75}, tag=level74] run function speedrun:levels_start/level75_start
 execute as @a[scores={level=76}, tag=level75] run function speedrun:levels_start/level76_start
