@@ -18,7 +18,7 @@ execute as @a[scores={level=12}, tag=level11] run function speedrun:levels_start
 execute as @a[scores={level=13}, tag=level12] run function speedrun:levels_start/level13_start
 execute as @a[scores={level=14}, tag=level13] run function speedrun:levels_start/level14_start
 execute as @a[scores={level=15}, tag=level14] run function speedrun:levels_start/level15_start
-execute as @a[scores={level=16}, tag=level15] run function speedrun:levels_start/level16_start
+execute as @a[scores={level=16}, tag=level15, x=-53, y=12 ,z=868, dx=19, dy=260, dz=199] run function speedrun:levels_start/level16_start
 execute as @a[scores={level=17}, tag=level16] run function speedrun:levels_start/level17_start
 execute as @a[scores={level=18}, tag=level17] run function speedrun:levels_start/level18_start
 execute as @a[scores={level=19}, tag=level18] run function speedrun:levels_start/level19_start
@@ -102,5 +102,5 @@ execute as @a[scores={level=98}, tag=level97] run function speedrun:levels_start
 execute as @a[scores={level=99}, tag=level98] run function speedrun:levels_start/level99_start
 execute as @a[scores={level=100}, tag=level99] run function speedrun:levels_start/level100_start
 
-execute as @a[tag=level100,x=100083,y=75,z=100088,distance=..20] run tag @s add run_ended
+execute as @a[tag=level100, x=-34, y=152, z=1130, distance=..20] run tag @s add run_ended
 execute as @a[scores={level=100}, tag=level100, tag=run_ended] run function speedrun:levels_start/level100_end
