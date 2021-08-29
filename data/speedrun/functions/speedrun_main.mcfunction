@@ -14,7 +14,7 @@ execute as @a[scores={level=8}, tag=level7] run function speedrun:levels_start/l
 execute as @a[scores={level=9}, tag=level8] run function speedrun:levels_start/level9_start
 execute as @a[scores={level=10}, tag=level9] run function speedrun:levels_start/level10_start
 execute as @a[scores={level=11}, tag=level10] run function speedrun:levels_start/level11_start
-execute as @a[scores={level=12}, tag=level11] run function speedrun:levels_start/level12_start
+execute as @a[tag=level11, x=30,y=0,z=868,dx=19,dy=260,dz=19] run function speedrun:levels_start/level12_start
 execute as @a[scores={level=13}, tag=level12] run function speedrun:levels_start/level13_start
 execute as @a[scores={level=14}, tag=level13] run function speedrun:levels_start/level14_start
 execute as @a[scores={level=15}, tag=level14] run function speedrun:levels_start/level15_start

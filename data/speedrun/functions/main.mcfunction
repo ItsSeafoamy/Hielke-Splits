@@ -40,3 +40,5 @@ scoreboard players set @a show_sum_of_il 0
 execute as @a[tag=speedrun_mode] run function speedrun:speedrun_main
 
 function ilprac:il_practice_main
+
+execute as @a[tag=!reset_12] run function speedrun:reset_12
