@@ -40,4 +40,4 @@ scoreboard players operation @s il_display_time = @s lvl40_best_il
 scoreboard players set @s il_display_level 40
 function ilprac:display/show_time
 
-tellraw @s ["", {"text":"[PREV]","color":"aqua","clickEvent":{"action": "run_command","value": "/trigger show_il_times_2"}},{"text":" "},{"text":"[NEXT]","color":"aqua","clickEvent":{"action": "run_command","value": "/trigger show_il_times_4"}}]
+tellraw @s ["", {"text":"[PREV]","color":"aqua","bold":true,"clickEvent":{"action": "run_command","value": "/trigger show_il_times_2"}},{"text":" "},{"text":"[NEXT]","color":"aqua","bold":true,"clickEvent":{"action": "run_command","value": "/trigger show_il_times_4"}}]
