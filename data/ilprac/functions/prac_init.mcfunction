@@ -23,6 +23,7 @@ scoreboard players operation @s level = @s il_level
 scoreboard players operation @s level -= @s one
 
 team join main @s
+tag @s remove end
 
 execute as @s[scores={il_level=1}] run function ilprac:start/lvl1
 execute as @s[scores={il_level=2}] run function ilprac:start/lvl2

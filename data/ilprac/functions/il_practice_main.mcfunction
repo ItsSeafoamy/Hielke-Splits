@@ -1,4 +1,5 @@
 function ilprac:enable_triggers
+function main:set_level
 
 execute as @a[tag=il_running] run function ilprac:run_timer
 
