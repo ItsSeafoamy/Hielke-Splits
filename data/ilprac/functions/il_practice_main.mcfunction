@@ -613,32 +613,32 @@ execute as @a[scores={il_level=100}] run function ilprac:levels/lvl100
 
 execute as @a[tag=il_finished] run function ilprac:unprac
 
-execute as @a[scores={show_il_times=1..}] run function ilprac:display/page0
-execute as @a[scores={show_il_times=1..}] run scoreboard players set @s show_il_times 0
+execute as @a[scores={il_times=1..}] run function ilprac:display/page0
+execute as @a[scores={il_times=1..}] run scoreboard players set @s il_times 0
 
-execute as @a[scores={show_il_times_1=1..}] run function ilprac:display/page1
-execute as @a[scores={show_il_times_1=1..}] run scoreboard players set @s show_il_times_1 0
+execute as @a[scores={il_times_1=1..}] run function ilprac:display/page1
+execute as @a[scores={il_times_1=1..}] run scoreboard players set @s il_times_1 0
 
-execute as @a[scores={show_il_times_2=1..}] run function ilprac:display/page2
-execute as @a[scores={show_il_times_2=1..}] run scoreboard players set @s show_il_times_2 0
+execute as @a[scores={il_times_2=1..}] run function ilprac:display/page2
+execute as @a[scores={il_times_2=1..}] run scoreboard players set @s il_times_2 0
 
-execute as @a[scores={show_il_times_3=1..}] run function ilprac:display/page3
-execute as @a[scores={show_il_times_3=1..}] run scoreboard players set @s show_il_times_3 0
+execute as @a[scores={il_times_3=1..}] run function ilprac:display/page3
+execute as @a[scores={il_times_3=1..}] run scoreboard players set @s il_times_3 0
 
-execute as @a[scores={show_il_times_4=1..}] run function ilprac:display/page4
-execute as @a[scores={show_il_times_4=1..}] run scoreboard players set @s show_il_times_4 0
+execute as @a[scores={il_times_4=1..}] run function ilprac:display/page4
+execute as @a[scores={il_times_4=1..}] run scoreboard players set @s il_times_4 0
 
-execute as @a[scores={show_il_times_5=1..}] run function ilprac:display/page5
-execute as @a[scores={show_il_times_5=1..}] run scoreboard players set @s show_il_times_5 0
+execute as @a[scores={il_times_5=1..}] run function ilprac:display/page5
+execute as @a[scores={il_times_5=1..}] run scoreboard players set @s il_times_5 0
 
-execute as @a[scores={show_il_times_6=1..}] run function ilprac:display/page6
-execute as @a[scores={show_il_times_6=1..}] run scoreboard players set @s show_il_times_6 0
+execute as @a[scores={il_times_6=1..}] run function ilprac:display/page6
+execute as @a[scores={il_times_6=1..}] run scoreboard players set @s il_times_6 0
 
-execute as @a[scores={show_il_times_7=1..}] run function ilprac:display/page7
-execute as @a[scores={show_il_times_7=1..}] run scoreboard players set @s show_il_times_7 0
+execute as @a[scores={il_times_7=1..}] run function ilprac:display/page7
+execute as @a[scores={il_times_7=1..}] run scoreboard players set @s il_times_7 0
 
-execute as @a[scores={show_il_times_8=1..}] run function ilprac:display/page8
-execute as @a[scores={show_il_times_8=1..}] run scoreboard players set @s show_il_times_8 0
+execute as @a[scores={il_times_8=1..}] run function ilprac:display/page8
+execute as @a[scores={il_times_8=1..}] run scoreboard players set @s il_times_8 0
 
-execute as @a[scores={show_il_times_9=1..}] run function ilprac:display/page9
-execute as @a[scores={show_il_times_9=1..}] run scoreboard players set @s show_il_times_9 0
+execute as @a[scores={il_times_9=1..}] run function ilprac:display/page9
+execute as @a[scores={il_times_9=1..}] run scoreboard players set @s il_times_9 0
