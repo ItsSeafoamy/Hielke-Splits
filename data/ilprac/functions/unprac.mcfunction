@@ -1,5 +1,8 @@
 tag @s remove il_running
-tag @s remove il_done
+tag @s remove il_finished
+
+tag @s remove positive_delta
+tag @s remove negative_delta
 
 #reset le timer
 scoreboard players set @s global_il 0

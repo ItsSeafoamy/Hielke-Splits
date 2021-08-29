@@ -611,4 +611,4 @@ execute as @a[scores={il100=1..}] run function ilprac:prac_init
 execute as @a[scores={il100=1..}] run scoreboard players set @s il100 0
 execute as @a[scores={il_level=100}] run function ilprac:levels/lvl100
 
-execute as @a[tag=il_finished] run function ilprac:finish
+execute as @a[tag=il_finished] run function ilprac:unprac
