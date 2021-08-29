@@ -5,16 +5,16 @@ scoreboard objectives add z_reset_splits trigger
 scoreboard objectives add il_reset_splits trigger
 scoreboard objectives add show_sum_of_best trigger
 scoreboard objectives add show_sum_of_il trigger
-scoreboard objectives add il_times trigger
-scoreboard objectives add il_times_1 trigger
-scoreboard objectives add il_times_2 trigger
-scoreboard objectives add il_times_3 trigger
-scoreboard objectives add il_times_4 trigger
-scoreboard objectives add il_times_5 trigger
-scoreboard objectives add il_times_6 trigger
-scoreboard objectives add il_times_7 trigger
-scoreboard objectives add il_times_8 trigger
-scoreboard objectives add il_times_9 trigger
+scoreboard objectives add list_il_times trigger
+scoreboard objectives add list_il_times_1 trigger
+scoreboard objectives add list_il_times_2 trigger
+scoreboard objectives add list_il_times_3 trigger
+scoreboard objectives add list_il_times_4 trigger
+scoreboard objectives add list_il_times_5 trigger
+scoreboard objectives add list_il_times_6 trigger
+scoreboard objectives add list_il_times_7 trigger
+scoreboard objectives add list_il_times_8 trigger
+scoreboard objectives add list_il_times_9 trigger
 scoreboard objectives add unprac trigger
 
 scoreboard objectives add const_mult_ticks dummy
