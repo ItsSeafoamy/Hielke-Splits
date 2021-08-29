@@ -22,6 +22,8 @@ tag @s remove speedrun_mode_leave
 scoreboard players operation @s level = @s il_level
 scoreboard players operation @s level -= @s one
 
+team join main @s
+
 execute as @s[scores={il_level=1}] run function ilprac:start/lvl1
 execute as @s[scores={il_level=2}] run function ilprac:start/lvl2
 execute as @s[scores={il_level=3}] run function ilprac:start/lvl3
