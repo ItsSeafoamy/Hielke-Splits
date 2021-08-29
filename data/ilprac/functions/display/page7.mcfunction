@@ -4,10 +4,6 @@ scoreboard players operation @s il_display_time = @s lvl71_best_il
 scoreboard players set @s il_display_level 71
 function ilprac:display/show_time
 
-scoreboard players operation @s il_display_time = @s lvl72_best_il
-scoreboard players set @s il_display_level 72
-function ilprac:display/show_time
-
 scoreboard players operation @s il_display_time = @s lvl73_best_il
 scoreboard players set @s il_display_level 73
 function ilprac:display/show_time
