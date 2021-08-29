@@ -99,3 +99,14 @@ scoreboard players enable @a il98
 scoreboard players enable @a il99
 scoreboard players enable @a il100
 scoreboard players enable @a unprac
+
+scoreboard players enable @a show_il_times
+scoreboard players enable @a show_il_times_1
+scoreboard players enable @a show_il_times_2
+scoreboard players enable @a show_il_times_3
+scoreboard players enable @a show_il_times_4
+scoreboard players enable @a show_il_times_5
+scoreboard players enable @a show_il_times_6
+scoreboard players enable @a show_il_times_7
+scoreboard players enable @a show_il_times_8
+scoreboard players enable @a show_il_times_9
