@@ -94,7 +94,6 @@ scoreboard players operation @s lvl90_pb = @s lvl90_pb_temp
 scoreboard players operation @s lvl91_pb = @s lvl91_pb_temp
 scoreboard players operation @s lvl92_pb = @s lvl92_pb_temp
 scoreboard players operation @s lvl93_pb = @s lvl93_pb_temp
-scoreboard players operation @s lvl94_pb = @s lvl94_pb_temp
 scoreboard players operation @s lvl95_pb = @s lvl95_pb_temp
 scoreboard players operation @s lvl96_pb = @s lvl96_pb_temp
 scoreboard players operation @s lvl97_pb = @s lvl97_pb_temp

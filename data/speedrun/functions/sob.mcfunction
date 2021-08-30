@@ -93,7 +93,6 @@ scoreboard players set @s[scores={lvl90_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl91_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl92_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl93_best=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl94_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl95_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl96_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl97_best=2147483647}] sob_test 1

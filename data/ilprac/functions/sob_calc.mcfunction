@@ -91,7 +91,6 @@ scoreboard players operation @s sob_ticks += @s lvl90_best_il
 scoreboard players operation @s sob_ticks += @s lvl91_best_il
 scoreboard players operation @s sob_ticks += @s lvl92_best_il
 scoreboard players operation @s sob_ticks += @s lvl93_best_il
-scoreboard players operation @s sob_ticks += @s lvl94_best_il
 scoreboard players operation @s sob_ticks += @s lvl95_best_il
 scoreboard players operation @s sob_ticks += @s lvl96_best_il
 scoreboard players operation @s sob_ticks += @s lvl97_best_il

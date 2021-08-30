@@ -1,3 +1,6 @@
+#Resetting level 93 and 94 splits because they got merged
+execute as @a[tag=!reset_94] run function speedrun:reset_94
+
 execute as @a[tag=spawn, tag=!speedrun_reseted] run function speedrun:resetspeedrun
 execute as @a[tag=ingame, tag=!run_ended] run function speedrun:timerspeedrun
 
@@ -96,8 +99,7 @@ execute as @a[scores={level=90}, tag=level89] run function speedrun:levels_start
 execute as @a[scores={level=91}, tag=level90] run function speedrun:levels_start/level91_start
 execute as @a[scores={level=92}, tag=level91] run function speedrun:levels_start/level92_start
 execute as @a[scores={level=93}, tag=level92] run function speedrun:levels_start/level93_start
-execute as @a[scores={level=94}, tag=level93] run function speedrun:levels_start/level94_start
-execute as @a[scores={level=95}, tag=level94] run function speedrun:levels_start/level95_start
+execute as @a[scores={level=95}, tag=level93] run function speedrun:levels_start/level95_start
 execute as @a[scores={level=96}, tag=level95] run function speedrun:levels_start/level96_start
 execute as @a[scores={level=97}, tag=level96] run function speedrun:levels_start/level97_start
 execute as @a[scores={level=98}, tag=level97] run function speedrun:levels_start/level98_start

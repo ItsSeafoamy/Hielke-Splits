@@ -92,7 +92,6 @@ scoreboard players set @s lvl90_pb 2147483647
 scoreboard players set @s lvl91_pb 2147483647
 scoreboard players set @s lvl92_pb 2147483647
 scoreboard players set @s lvl93_pb 2147483647
-scoreboard players set @s lvl94_pb 2147483647
 scoreboard players set @s lvl95_pb 2147483647
 scoreboard players set @s lvl96_pb 2147483647
 scoreboard players set @s lvl97_pb 2147483647
@@ -193,7 +192,6 @@ scoreboard players set @s lvl90_best 2147483647
 scoreboard players set @s lvl91_best 2147483647
 scoreboard players set @s lvl92_best 2147483647
 scoreboard players set @s lvl93_best 2147483647
-scoreboard players set @s lvl94_best 2147483647
 scoreboard players set @s lvl95_best 2147483647
 scoreboard players set @s lvl96_best 2147483647
 scoreboard players set @s lvl97_best 2147483647
@@ -294,7 +292,6 @@ scoreboard players set @s lvl90_bpe 2147483647
 scoreboard players set @s lvl91_bpe 2147483647
 scoreboard players set @s lvl92_bpe 2147483647
 scoreboard players set @s lvl93_bpe 2147483647
-scoreboard players set @s lvl94_bpe 2147483647
 scoreboard players set @s lvl95_bpe 2147483647
 scoreboard players set @s lvl96_bpe 2147483647
 scoreboard players set @s lvl97_bpe 2147483647

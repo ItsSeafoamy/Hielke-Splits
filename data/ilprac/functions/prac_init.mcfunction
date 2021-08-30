@@ -117,7 +117,6 @@ execute as @s[scores={il_level=90}] run function ilprac:start/lvl90
 execute as @s[scores={il_level=91}] run function ilprac:start/lvl91
 execute as @s[scores={il_level=92}] run function ilprac:start/lvl92
 execute as @s[scores={il_level=93}] run function ilprac:start/lvl93
-execute as @s[scores={il_level=94}] run function ilprac:start/lvl94
 execute as @s[scores={il_level=95}] run function ilprac:start/lvl95
 execute as @s[scores={il_level=96}] run function ilprac:start/lvl96
 execute as @s[scores={il_level=97}] run function ilprac:start/lvl97

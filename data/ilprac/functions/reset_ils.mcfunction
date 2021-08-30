@@ -91,7 +91,6 @@ scoreboard players set @s lvl90_best_il 2147483647
 scoreboard players set @s lvl91_best_il 2147483647
 scoreboard players set @s lvl92_best_il 2147483647
 scoreboard players set @s lvl93_best_il 2147483647
-scoreboard players set @s lvl94_best_il 2147483647
 scoreboard players set @s lvl95_best_il 2147483647
 scoreboard players set @s lvl96_best_il 2147483647
 scoreboard players set @s lvl97_best_il 2147483647
