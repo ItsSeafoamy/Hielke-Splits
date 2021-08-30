@@ -1,1 +1,1 @@
-execute in minecraft:overworld run tp @s 99919.50 104.94 100092.50 -180.00 0.00
+execute in minecraft:overworld run tp @s 99863.07 23.00 99928.06 450.75 7.33
