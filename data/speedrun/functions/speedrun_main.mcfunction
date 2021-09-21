@@ -1,6 +1,3 @@
-#Resetting level 93 and 94 splits because they got merged
-execute as @a[tag=!reset_94] run function speedrun:reset_94
-
 execute as @a[tag=spawn, tag=!speedrun_reseted] run function speedrun:resetspeedrun
 execute as @a[tag=ingame, tag=!run_ended] run function speedrun:timerspeedrun
 

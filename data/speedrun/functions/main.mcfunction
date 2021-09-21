@@ -40,3 +40,6 @@ scoreboard players set @a show_sum_of_il 0
 execute as @a[tag=speedrun_mode] run function speedrun:speedrun_main
 
 function ilprac:il_practice_main
+
+#Resetting level 93 and 94 splits because they got merged
+execute as @a[tag=!reset_94] run function speedrun:reset_94
