@@ -3,8 +3,6 @@ function main:set_level
 
 execute as @a[tag=il_running] run function ilprac:run_timer
 
-execute as @a[tag=il_running] run function ilprac:run_timer
-
 execute as @a[tag=!il_init] run function ilprac:reset_ils
 execute as @a[tag=!il_init] run tag @s add il_init
 
