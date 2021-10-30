@@ -1,4 +1,4 @@
-tellraw @s {"text":"Individual Level Times", "color":"gold", "bold": true}
+tellraw @s {"text":"Individual Level Times:", "color":"gold", "bold": true}
 
 scoreboard players operation @s il_display_time = @s lvl1_best_il
 scoreboard players set @s il_display_level 1
@@ -40,4 +40,22 @@ scoreboard players operation @s il_display_time = @s lvl10_best_il
 scoreboard players set @s il_display_level 10
 function ilprac:display/show_time
 
-tellraw @s ["", {"text":"[NEXT]","color":"aqua","bold":true,"clickEvent":{"action": "run_command","value": "/trigger list_il_times_1"}}]
+scoreboard players operation @s il_display_time = @s lvl11_best_il
+scoreboard players set @s il_display_level 11
+function ilprac:display/show_time
+
+scoreboard players operation @s il_display_time = @s lvl12_best_il
+scoreboard players set @s il_display_level 12
+function ilprac:display/show_time
+
+scoreboard players operation @s il_display_time = @s lvl13_best_il
+scoreboard players set @s il_display_level 13
+function ilprac:display/show_time
+
+scoreboard players operation @s il_display_time = @s lvl14_best_il
+scoreboard players set @s il_display_level 14
+function ilprac:display/show_time
+
+scoreboard players operation @s il_display_time = @s lvl15_best_il
+scoreboard players set @s il_display_level 15
+function ilprac:display/show_time
