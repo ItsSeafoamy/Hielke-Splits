@@ -19,10 +19,6 @@ tag @a[scores={speedrun_mode=1..},tag=!speedrun_mode] add speedrun_mode_join
 tag @a[scores={speedrun_mode=1..},tag=speedrun_mode] add speedrun_mode_leave
 scoreboard players set @a speedrun_mode 0
 
-tag @a[scores={actionbar_timer=1..},tag=!actionbar_timer] add actionbar_timer
-tag @a[scores={actionbar_timer=1..},tag=actionbar_timer] remove actionbar_timer
-scoreboard players set @a speedrun_mode 0
-
 #Sometimes it doesn't initialize correctly, this is a backup to make sure it does :) (just don't set your lvl69 best to 0...)
 execute as @a[scores={lvl69_best=0}] run function ilprac:reset_ils
 execute as @a[scores={lvl69_best=0}] run function speedrun:reset_splits
