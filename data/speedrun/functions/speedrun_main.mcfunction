@@ -1,5 +1,5 @@
 execute as @a[tag=spawn, tag=!speedrun_reseted] run function speedrun:resetspeedrun
-execute as @a[tag=ingame, tag=!run_ended] run function speedrun:timerspeedrun
+execute as @a[tag=started, tag=!run_ended] run function speedrun:timerspeedrun
 
 execute as @a[x=-19, y=2, z=1, dx=-1, dy=1, dz=1, scores={on_plate=1},tag=init_plate] run function speedrun:levels_start/level1_start
 execute as @a[x=8, y=18, z=-6, dy=4, dz=-3, tag=level1] run function speedrun:levels_start/level2_start

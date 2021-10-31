@@ -19,6 +19,8 @@ scoreboard players set @s ticks_lvl 0
 scoreboard players set @s seconds_lvl 0
 scoreboard players set @s minutes_lvl 0
 
+tag @s remove started
+
 tag @s remove level1
 tag @s remove level2
 tag @s remove level3
