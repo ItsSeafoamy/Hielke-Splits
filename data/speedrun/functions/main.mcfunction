@@ -24,7 +24,7 @@ execute as @a[scores={lvl6_best=0}] run function speedrun:reset_splits
 
 tag @a[scores={actionbar_timer=1..},tag=!actionbar_timer] add actionbar_timer
 tag @a[scores={actionbar_timer=1..},tag=actionbar_timer] remove actionbar_timer
-scoreboard players set @a speedrun_mode 0
+scoreboard players set @a actionbar_timer 0
 
 execute as @a[tag=speedrun_mode_join] run function speedrun:join
 execute as @a[tag=speedrun_mode_leave] run function speedrun:leave
