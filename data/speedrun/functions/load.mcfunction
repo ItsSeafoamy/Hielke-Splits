@@ -16,6 +16,7 @@ scoreboard objectives add list_il_times_7 trigger
 scoreboard objectives add list_il_times_8 trigger
 scoreboard objectives add list_il_times_9 trigger
 scoreboard objectives add unprac trigger
+scoreboard objectives add actionbar_timer trigger
 
 scoreboard objectives add const_mult_ticks dummy
 scoreboard objectives add const_div_ticks dummy
