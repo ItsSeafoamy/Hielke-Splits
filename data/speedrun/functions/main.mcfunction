@@ -3,7 +3,6 @@ scoreboard players enable @a z_reset_splits
 scoreboard players enable @a show_sum_of_best
 scoreboard players enable @a show_sum_of_il
 scoreboard players enable @a il_reset_splits
-scoreboard players enable @a actionbar_timer
 
 #pas le meilleur endroit mais bon (not the best place but oh well)
 scoreboard players set @a const_mult_ticks 5
