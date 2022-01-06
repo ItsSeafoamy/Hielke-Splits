@@ -59,3 +59,35 @@ function ilprac:display/show_time
 scoreboard players operation @s il_display_time = @s lvl15_best_il
 scoreboard players set @s il_display_level 15
 function ilprac:display/show_time
+
+scoreboard players operation @s il_display_time = @s lvl16_best_il
+scoreboard players set @s il_display_level 16
+function ilprac:display/show_time
+
+scoreboard players operation @s il_display_time = @s lvl17_best_il
+scoreboard players set @s il_display_level 17
+function ilprac:display/show_time
+
+scoreboard players operation @s il_display_time = @s lvl18_best_il
+scoreboard players set @s il_display_level 18
+function ilprac:display/show_time
+
+scoreboard players operation @s il_display_time = @s lvl19_best_il
+scoreboard players set @s il_display_level 19
+function ilprac:display/show_time
+
+scoreboard players operation @s il_display_time = @s lvl20_best_il
+scoreboard players set @s il_display_level 20
+function ilprac:display/show_time
+
+scoreboard players operation @s il_display_time = @s lvl21_best_il
+scoreboard players set @s il_display_level 21
+function ilprac:display/show_time
+
+scoreboard players operation @s il_display_time = @s lvl22_best_il
+scoreboard players set @s il_display_level 22
+function ilprac:display/show_time
+
+scoreboard players operation @s il_display_time = @s lvl23_best_il
+scoreboard players set @s il_display_level 23
+function ilprac:display/show_time

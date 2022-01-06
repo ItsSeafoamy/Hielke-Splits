@@ -14,6 +14,14 @@ scoreboard players set @s lvl12_pb 2147483647
 scoreboard players set @s lvl13_pb 2147483647
 scoreboard players set @s lvl14_pb 2147483647
 scoreboard players set @s lvl15_pb 2147483647
+scoreboard players set @s lvl16_pb 2147483647
+scoreboard players set @s lvl17_pb 2147483647
+scoreboard players set @s lvl18_pb 2147483647
+scoreboard players set @s lvl19_pb 2147483647
+scoreboard players set @s lvl20_pb 2147483647
+scoreboard players set @s lvl21_pb 2147483647
+scoreboard players set @s lvl22_pb 2147483647
+scoreboard players set @s lvl23_pb 2147483647
 
 scoreboard players set @s lvl1_best 2147483647
 scoreboard players set @s lvl2_best 2147483647
@@ -30,6 +38,14 @@ scoreboard players set @s lvl12_best 2147483647
 scoreboard players set @s lvl13_best 2147483647
 scoreboard players set @s lvl14_best 2147483647
 scoreboard players set @s lvl15_best 2147483647
+scoreboard players set @s lvl16_best 2147483647
+scoreboard players set @s lvl17_best 2147483647
+scoreboard players set @s lvl18_best 2147483647
+scoreboard players set @s lvl19_best 2147483647
+scoreboard players set @s lvl20_best 2147483647
+scoreboard players set @s lvl21_best 2147483647
+scoreboard players set @s lvl22_best 2147483647
+scoreboard players set @s lvl23_best 2147483647
 
 scoreboard players set @s lvl1_bpe 2147483647
 scoreboard players set @s lvl2_bpe 2147483647
@@ -46,3 +62,11 @@ scoreboard players set @s lvl12_bpe 2147483647
 scoreboard players set @s lvl13_bpe 2147483647
 scoreboard players set @s lvl14_bpe 2147483647
 scoreboard players set @s lvl15_bpe 2147483647
+scoreboard players set @s lvl16_bpe 2147483647
+scoreboard players set @s lvl17_bpe 2147483647
+scoreboard players set @s lvl18_bpe 2147483647
+scoreboard players set @s lvl19_bpe 2147483647
+scoreboard players set @s lvl20_bpe 2147483647
+scoreboard players set @s lvl21_bpe 2147483647
+scoreboard players set @s lvl22_bpe 2147483647
+scoreboard players set @s lvl23_bpe 2147483647

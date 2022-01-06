@@ -13,3 +13,6 @@ scoreboard players set @s seconds_il 0
 clear @s
 
 scoreboard players set @s il_level 0
+
+# Kill the crystals
+kill @e[type=end_crystal,tag=ilend]

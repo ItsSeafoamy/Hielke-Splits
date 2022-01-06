@@ -53,13 +53,6 @@ execute as @a[scores={il6=1..}] run function ilprac:prac_init
 execute as @a[scores={il6=1..}] run scoreboard players set @s il6 0
 execute as @a[scores={il_level=6}] run function ilprac:levels/lvl6
 
-#alternative starting position for split 6
-execute as @a[scores={il6alternative=1..}] run scoreboard players set @s il_level 61
-execute as @a[scores={il6alternative=1..}] run function ilprac:start/lvl6alternative
-execute as @a[scores={il6alternative=1..}] run function ilprac:prac_init
-execute as @a[scores={il6alternative=1..}] run scoreboard players set @s il6alternative 0
-execute as @a[scores={il_level=61}] run function ilprac:levels/lvl6
-
 execute as @a[scores={il7=1..}] run scoreboard players set @s il_level 7
 execute as @a[scores={il7=1..}] run function ilprac:start/lvl7
 execute as @a[scores={il7=1..}] run function ilprac:prac_init
@@ -113,6 +106,54 @@ execute as @a[scores={il15=1..}] run function ilprac:start/lvl15
 execute as @a[scores={il15=1..}] run function ilprac:prac_init
 execute as @a[scores={il15=1..}] run scoreboard players set @s il15 0
 execute as @a[scores={il_level=15}] run function ilprac:levels/lvl15
+
+execute as @a[scores={il16=1..}] run scoreboard players set @s il_level 16
+execute as @a[scores={il16=1..}] run function ilprac:start/lvl16
+execute as @a[scores={il16=1..}] run function ilprac:prac_init
+execute as @a[scores={il16=1..}] run scoreboard players set @s il16 0
+execute as @a[scores={il_level=16}] run function ilprac:levels/lvl16
+
+execute as @a[scores={il17=1..}] run scoreboard players set @s il_level 17
+execute as @a[scores={il17=1..}] run function ilprac:start/lvl17
+execute as @a[scores={il17=1..}] run function ilprac:prac_init
+execute as @a[scores={il17=1..}] run scoreboard players set @s il17 0
+execute as @a[scores={il_level=17}] run function ilprac:levels/lvl17
+
+execute as @a[scores={il18=1..}] run scoreboard players set @s il_level 18
+execute as @a[scores={il18=1..}] run function ilprac:start/lvl18
+execute as @a[scores={il18=1..}] run function ilprac:prac_init
+execute as @a[scores={il18=1..}] run scoreboard players set @s il18 0
+execute as @a[scores={il_level=18}] run function ilprac:levels/lvl18
+
+execute as @a[scores={il19=1..}] run scoreboard players set @s il_level 19
+execute as @a[scores={il19=1..}] run function ilprac:start/lvl19
+execute as @a[scores={il19=1..}] run function ilprac:prac_init
+execute as @a[scores={il19=1..}] run scoreboard players set @s il19 0
+execute as @a[scores={il_level=19}] run function ilprac:levels/lvl19
+
+execute as @a[scores={il20=1..}] run scoreboard players set @s il_level 20
+execute as @a[scores={il20=1..}] run function ilprac:start/lvl20
+execute as @a[scores={il20=1..}] run function ilprac:prac_init
+execute as @a[scores={il20=1..}] run scoreboard players set @s il20 0
+execute as @a[scores={il_level=20}] run function ilprac:levels/lvl20
+
+execute as @a[scores={il21=1..}] run scoreboard players set @s il_level 21
+execute as @a[scores={il21=1..}] run function ilprac:start/lvl21
+execute as @a[scores={il21=1..}] run function ilprac:prac_init
+execute as @a[scores={il21=1..}] run scoreboard players set @s il21 0
+execute as @a[scores={il_level=21}] run function ilprac:levels/lvl21
+
+execute as @a[scores={il22=1..}] run scoreboard players set @s il_level 22
+execute as @a[scores={il22=1..}] run function ilprac:start/lvl22
+execute as @a[scores={il22=1..}] run function ilprac:prac_init
+execute as @a[scores={il22=1..}] run scoreboard players set @s il22 0
+execute as @a[scores={il_level=22}] run function ilprac:levels/lvl22
+
+execute as @a[scores={il23=1..}] run scoreboard players set @s il_level 23
+execute as @a[scores={il23=1..}] run function ilprac:start/lvl23
+execute as @a[scores={il23=1..}] run function ilprac:prac_init
+execute as @a[scores={il23=1..}] run scoreboard players set @s il23 0
+execute as @a[scores={il_level=23}] run function ilprac:levels/lvl23
 
 execute as @a[tag=il_finished] run function ilprac:unprac
 

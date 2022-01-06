@@ -13,3 +13,11 @@ scoreboard players set @s lvl12_best_il 2147483647
 scoreboard players set @s lvl13_best_il 2147483647
 scoreboard players set @s lvl14_best_il 2147483647
 scoreboard players set @s lvl15_best_il 2147483647
+scoreboard players set @s lvl16_best_il 2147483647
+scoreboard players set @s lvl17_best_il 2147483647
+scoreboard players set @s lvl18_best_il 2147483647
+scoreboard players set @s lvl19_best_il 2147483647
+scoreboard players set @s lvl20_best_il 2147483647
+scoreboard players set @s lvl21_best_il 2147483647
+scoreboard players set @s lvl22_best_il 2147483647
+scoreboard players set @s lvl23_best_il 2147483647

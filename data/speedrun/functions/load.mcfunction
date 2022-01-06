@@ -61,6 +61,14 @@ scoreboard objectives add lvl12_pb_temp dummy
 scoreboard objectives add lvl13_pb_temp dummy
 scoreboard objectives add lvl14_pb_temp dummy
 scoreboard objectives add lvl15_pb_temp dummy
+scoreboard objectives add lvl16_pb_temp dummy
+scoreboard objectives add lvl17_pb_temp dummy
+scoreboard objectives add lvl18_pb_temp dummy
+scoreboard objectives add lvl19_pb_temp dummy
+scoreboard objectives add lvl20_pb_temp dummy
+scoreboard objectives add lvl21_pb_temp dummy
+scoreboard objectives add lvl22_pb_temp dummy
+scoreboard objectives add lvl23_pb_temp dummy
 
 scoreboard objectives add lvl1_pb dummy
 scoreboard objectives add lvl2_pb dummy
@@ -77,6 +85,14 @@ scoreboard objectives add lvl12_pb dummy
 scoreboard objectives add lvl13_pb dummy
 scoreboard objectives add lvl14_pb dummy
 scoreboard objectives add lvl15_pb dummy
+scoreboard objectives add lvl16_pb dummy
+scoreboard objectives add lvl17_pb dummy
+scoreboard objectives add lvl18_pb dummy
+scoreboard objectives add lvl19_pb dummy
+scoreboard objectives add lvl20_pb dummy
+scoreboard objectives add lvl21_pb dummy
+scoreboard objectives add lvl22_pb dummy
+scoreboard objectives add lvl23_pb dummy
 
 scoreboard objectives add lvl1_bpe dummy
 scoreboard objectives add lvl2_bpe dummy
@@ -93,6 +109,14 @@ scoreboard objectives add lvl12_bpe dummy
 scoreboard objectives add lvl13_bpe dummy
 scoreboard objectives add lvl14_bpe dummy
 scoreboard objectives add lvl15_bpe dummy
+scoreboard objectives add lvl16_bpe dummy
+scoreboard objectives add lvl17_bpe dummy
+scoreboard objectives add lvl18_bpe dummy
+scoreboard objectives add lvl19_bpe dummy
+scoreboard objectives add lvl20_bpe dummy
+scoreboard objectives add lvl21_bpe dummy
+scoreboard objectives add lvl22_bpe dummy
+scoreboard objectives add lvl23_bpe dummy
 
 scoreboard objectives add lvl1_best dummy
 scoreboard objectives add lvl2_best dummy
@@ -109,6 +133,14 @@ scoreboard objectives add lvl12_best dummy
 scoreboard objectives add lvl13_best dummy
 scoreboard objectives add lvl14_best dummy
 scoreboard objectives add lvl15_best dummy
+scoreboard objectives add lvl16_best dummy
+scoreboard objectives add lvl17_best dummy
+scoreboard objectives add lvl18_best dummy
+scoreboard objectives add lvl19_best dummy
+scoreboard objectives add lvl20_best dummy
+scoreboard objectives add lvl21_best dummy
+scoreboard objectives add lvl22_best dummy
+scoreboard objectives add lvl23_best dummy
 
 scoreboard objectives add global_il dummy
 scoreboard objectives add ticks_il dummy
@@ -123,7 +155,6 @@ scoreboard objectives add il3 trigger
 scoreboard objectives add il4 trigger
 scoreboard objectives add il5 trigger
 scoreboard objectives add il6 trigger
-scoreboard objectives add il6alternative trigger
 scoreboard objectives add il7 trigger
 scoreboard objectives add il8 trigger
 scoreboard objectives add il9 trigger
@@ -133,6 +164,14 @@ scoreboard objectives add il12 trigger
 scoreboard objectives add il13 trigger
 scoreboard objectives add il14 trigger
 scoreboard objectives add il15 trigger
+scoreboard objectives add il16 trigger
+scoreboard objectives add il17 trigger
+scoreboard objectives add il18 trigger
+scoreboard objectives add il19 trigger
+scoreboard objectives add il20 trigger
+scoreboard objectives add il21 trigger
+scoreboard objectives add il22 trigger
+scoreboard objectives add il23 trigger
 
 scoreboard objectives add lvl1_best_il dummy
 scoreboard objectives add lvl2_best_il dummy
@@ -149,3 +188,11 @@ scoreboard objectives add lvl12_best_il dummy
 scoreboard objectives add lvl13_best_il dummy
 scoreboard objectives add lvl14_best_il dummy
 scoreboard objectives add lvl15_best_il dummy
+scoreboard objectives add lvl16_best_il dummy
+scoreboard objectives add lvl17_best_il dummy
+scoreboard objectives add lvl18_best_il dummy
+scoreboard objectives add lvl19_best_il dummy
+scoreboard objectives add lvl20_best_il dummy
+scoreboard objectives add lvl21_best_il dummy
+scoreboard objectives add lvl22_best_il dummy
+scoreboard objectives add lvl23_best_il dummy

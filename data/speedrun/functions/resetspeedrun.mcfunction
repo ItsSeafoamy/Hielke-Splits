@@ -36,3 +36,11 @@ tag @s remove level12
 tag @s remove level13
 tag @s remove level14
 tag @s remove level15
+tag @s remove level16
+tag @s remove level17
+tag @s remove level18
+tag @s remove level19
+tag @s remove level20
+tag @s remove level21
+tag @s remove level22
+tag @s remove level23

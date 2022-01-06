@@ -15,6 +15,14 @@ scoreboard players set @s[scores={lvl12_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl13_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl14_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl15_best=2147483647}] sob_test 1
+scoreboard players set @s[scores={lvl16_best=2147483647}] sob_test 1
+scoreboard players set @s[scores={lvl17_best=2147483647}] sob_test 1
+scoreboard players set @s[scores={lvl18_best=2147483647}] sob_test 1
+scoreboard players set @s[scores={lvl19_best=2147483647}] sob_test 1
+scoreboard players set @s[scores={lvl20_best=2147483647}] sob_test 1
+scoreboard players set @s[scores={lvl21_best=2147483647}] sob_test 1
+scoreboard players set @s[scores={lvl22_best=2147483647}] sob_test 1
+scoreboard players set @s[scores={lvl23_best=2147483647}] sob_test 1
 
 tellraw @s[scores={sob_test=1}] {"text":"You must complete a full run in speedrun mode before you can use this command","color":"red"}
 execute as @s[scores={sob_test=0}] run function speedrun:sob_calc
