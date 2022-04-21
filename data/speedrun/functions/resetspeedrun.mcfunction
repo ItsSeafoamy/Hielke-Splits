@@ -1,6 +1,6 @@
 tag @s add speedrun_reseted
 
-scoreboard players reset @s level 
+scoreboard players reset @s level
 
 tag @s remove positive_delta
 tag @s remove negative_delta
@@ -76,10 +76,7 @@ tag @s remove level54
 tag @s remove level55
 tag @s remove level56
 tag @s remove level57
-tag @s remove level58
 tag @s remove level59
-tag @s remove level60
-tag @s remove level61
 tag @s remove level62
 tag @s remove level63
 tag @s remove level64
@@ -101,21 +98,13 @@ tag @s remove level79
 tag @s remove level80
 tag @s remove level81
 tag @s remove level82
-tag @s remove level83
 tag @s remove level84
 tag @s remove level85
 tag @s remove level86
 tag @s remove level87
-tag @s remove level88
 tag @s remove level89
-tag @s remove level90
 tag @s remove level91
-tag @s remove level92
-tag @s remove level93
 tag @s remove level94
 tag @s remove level95
 tag @s remove level96
 tag @s remove level97
-tag @s remove level98
-tag @s remove level99
-tag @s remove level100

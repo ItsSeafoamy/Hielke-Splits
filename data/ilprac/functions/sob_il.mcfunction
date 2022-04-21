@@ -57,10 +57,7 @@ scoreboard players set @s[scores={lvl54_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl55_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl56_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl57_best_il=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl58_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl59_best_il=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl60_best_il=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl61_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl62_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl63_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl64_best_il=2147483647}] sob_test 1
@@ -82,24 +79,16 @@ scoreboard players set @s[scores={lvl79_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl80_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl81_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl82_best_il=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl83_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl84_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl85_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl86_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl87_best_il=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl88_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl89_best_il=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl90_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl91_best_il=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl92_best_il=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl93_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl94_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl95_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl96_best_il=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl97_best_il=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl98_best_il=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl99_best_il=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl100_best=2147483647}] sob_test 1
 
 tellraw @s[scores={sob_test=1}] {"text":"You must complete every level in il practice before you can use this command","color":"red"}
 execute as @s[scores={sob_test=0}] run function ilprac:sob_calc

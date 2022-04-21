@@ -55,10 +55,7 @@ scoreboard players enable @a il54
 scoreboard players enable @a il55
 scoreboard players enable @a il56
 scoreboard players enable @a il57
-scoreboard players enable @a il58
 scoreboard players enable @a il59
-scoreboard players enable @a il60
-scoreboard players enable @a il61
 scoreboard players enable @a il62
 scoreboard players enable @a il63
 scoreboard players enable @a il64
@@ -80,24 +77,16 @@ scoreboard players enable @a il79
 scoreboard players enable @a il80
 scoreboard players enable @a il81
 scoreboard players enable @a il82
-scoreboard players enable @a il83
 scoreboard players enable @a il84
 scoreboard players enable @a il85
 scoreboard players enable @a il86
 scoreboard players enable @a il87
-scoreboard players enable @a il88
 scoreboard players enable @a il89
-scoreboard players enable @a il90
 scoreboard players enable @a il91
-scoreboard players enable @a il92
-scoreboard players enable @a il93
 scoreboard players enable @a il94
 scoreboard players enable @a il95
 scoreboard players enable @a il96
 scoreboard players enable @a il97
-scoreboard players enable @a il98
-scoreboard players enable @a il99
-scoreboard players enable @a il100
 scoreboard players enable @a unprac
 
 scoreboard players enable @a list_il_times
@@ -109,4 +98,3 @@ scoreboard players enable @a list_il_times_5
 scoreboard players enable @a list_il_times_6
 scoreboard players enable @a list_il_times_7
 scoreboard players enable @a list_il_times_8
-scoreboard players enable @a list_il_times_9

@@ -57,10 +57,7 @@ scoreboard players set @s[scores={lvl54_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl55_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl56_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl57_best=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl58_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl59_best=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl60_best=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl61_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl62_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl63_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl64_best=2147483647}] sob_test 1
@@ -82,24 +79,16 @@ scoreboard players set @s[scores={lvl79_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl80_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl81_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl82_best=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl83_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl84_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl85_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl86_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl87_best=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl88_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl89_best=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl90_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl91_best=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl92_best=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl93_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl94_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl95_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl96_best=2147483647}] sob_test 1
 scoreboard players set @s[scores={lvl97_best=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl98_best=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl99_best=2147483647}] sob_test 1
-scoreboard players set @s[scores={lvl100_best=2147483647}] sob_test 1
 
 tellraw @s[scores={sob_test=1}] {"text":"You must complete a full run in speedrun mode before you can use this command","color":"red"}
 execute as @s[scores={sob_test=0}] run function speedrun:sob_calc

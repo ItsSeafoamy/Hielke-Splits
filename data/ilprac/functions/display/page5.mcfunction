@@ -28,16 +28,16 @@ scoreboard players operation @s il_display_time = @s lvl57_best_il
 scoreboard players set @s il_display_level 57
 function ilprac:display/show_time
 
-scoreboard players operation @s il_display_time = @s lvl58_best_il
-scoreboard players set @s il_display_level 58
-function ilprac:display/show_time
-
 scoreboard players operation @s il_display_time = @s lvl59_best_il
 scoreboard players set @s il_display_level 59
 function ilprac:display/show_time
 
-scoreboard players operation @s il_display_time = @s lvl60_best_il
-scoreboard players set @s il_display_level 60
+scoreboard players operation @s il_display_time = @s lvl62_best_il
+scoreboard players set @s il_display_level 62
+function ilprac:display/show_time
+
+scoreboard players operation @s il_display_time = @s lvl63_best_il
+scoreboard players set @s il_display_level 63
 function ilprac:display/show_time
 
 tellraw @s ["", {"text":"[PREV]","color":"aqua","bold":true,"clickEvent":{"action": "run_command","value": "/trigger list_il_times_4"}},{"text":" "},{"text":"[NEXT]","color":"aqua","bold":true,"clickEvent":{"action": "run_command","value": "/trigger list_il_times_6"}}]

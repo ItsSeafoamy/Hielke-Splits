@@ -5,8 +5,11 @@ execute as @a[tag=il_running] run function ilprac:run_timer
 execute as @a[tag=!il_init] run function ilprac:reset_ils
 execute as @a[tag=!il_init] run tag @s add il_init
 
-execute as @a[scores={il_level=1..},nbt={SelectedItem:{id:"minecraft:light_weighted_pressure_plate"}}] run function ilprac:prac_init
+execute as @a[scores={il_level=1..},nbt={SelectedItem: {id: "minecraft:light_weighted_pressure_plate"}}] run function ilprac:prac_init
 item replace entity @a[scores={il_level=1..}] weapon.offhand with minecraft:light_weighted_pressure_plate
+
+#reset all the levels (gates and iron doors)
+execute as @a[scores={level=1}] run function ilprac:reset_il_practice_levels
 
 execute as @a[scores={unprac=1..}] run function ilprac:unprac
 execute as @a[scores={unprac=1..}] run scoreboard players set @s unprac 0
@@ -353,29 +356,11 @@ execute as @a[scores={il57=1..}] run function ilprac:prac_init
 execute as @a[scores={il57=1..}] run scoreboard players set @s il57 0
 execute as @a[scores={il_level=57}] run function ilprac:levels/lvl57
 
-execute as @a[scores={il58=1..}] run scoreboard players set @s il_level 58
-execute as @a[scores={il58=1..}] run function ilprac:start/lvl58
-execute as @a[scores={il58=1..}] run function ilprac:prac_init
-execute as @a[scores={il58=1..}] run scoreboard players set @s il58 0
-execute as @a[scores={il_level=58}] run function ilprac:levels/lvl58
-
 execute as @a[scores={il59=1..}] run scoreboard players set @s il_level 59
 execute as @a[scores={il59=1..}] run function ilprac:start/lvl59
 execute as @a[scores={il59=1..}] run function ilprac:prac_init
 execute as @a[scores={il59=1..}] run scoreboard players set @s il59 0
 execute as @a[scores={il_level=59}] run function ilprac:levels/lvl59
-
-execute as @a[scores={il60=1..}] run scoreboard players set @s il_level 60
-execute as @a[scores={il60=1..}] run function ilprac:start/lvl60
-execute as @a[scores={il60=1..}] run function ilprac:prac_init
-execute as @a[scores={il60=1..}] run scoreboard players set @s il60 0
-execute as @a[scores={il_level=60}] run function ilprac:levels/lvl60
-
-execute as @a[scores={il61=1..}] run scoreboard players set @s il_level 61
-execute as @a[scores={il61=1..}] run function ilprac:start/lvl61
-execute as @a[scores={il61=1..}] run function ilprac:prac_init
-execute as @a[scores={il61=1..}] run scoreboard players set @s il61 0
-execute as @a[scores={il_level=61}] run function ilprac:levels/lvl61
 
 execute as @a[scores={il62=1..}] run scoreboard players set @s il_level 62
 execute as @a[scores={il62=1..}] run function ilprac:start/lvl62
@@ -503,12 +488,6 @@ execute as @a[scores={il82=1..}] run function ilprac:prac_init
 execute as @a[scores={il82=1..}] run scoreboard players set @s il82 0
 execute as @a[scores={il_level=82}] run function ilprac:levels/lvl82
 
-execute as @a[scores={il83=1..}] run scoreboard players set @s il_level 83
-execute as @a[scores={il83=1..}] run function ilprac:start/lvl83
-execute as @a[scores={il83=1..}] run function ilprac:prac_init
-execute as @a[scores={il83=1..}] run scoreboard players set @s il83 0
-execute as @a[scores={il_level=83}] run function ilprac:levels/lvl83
-
 execute as @a[scores={il84=1..}] run scoreboard players set @s il_level 84
 execute as @a[scores={il84=1..}] run function ilprac:start/lvl84
 execute as @a[scores={il84=1..}] run function ilprac:prac_init
@@ -533,41 +512,17 @@ execute as @a[scores={il87=1..}] run function ilprac:prac_init
 execute as @a[scores={il87=1..}] run scoreboard players set @s il87 0
 execute as @a[scores={il_level=87}] run function ilprac:levels/lvl87
 
-execute as @a[scores={il88=1..}] run scoreboard players set @s il_level 88
-execute as @a[scores={il88=1..}] run function ilprac:start/lvl88
-execute as @a[scores={il88=1..}] run function ilprac:prac_init
-execute as @a[scores={il88=1..}] run scoreboard players set @s il88 0
-execute as @a[scores={il_level=88}] run function ilprac:levels/lvl88
-
 execute as @a[scores={il89=1..}] run scoreboard players set @s il_level 89
 execute as @a[scores={il89=1..}] run function ilprac:start/lvl89
 execute as @a[scores={il89=1..}] run function ilprac:prac_init
 execute as @a[scores={il89=1..}] run scoreboard players set @s il89 0
 execute as @a[scores={il_level=89}] run function ilprac:levels/lvl89
 
-execute as @a[scores={il90=1..}] run scoreboard players set @s il_level 90
-execute as @a[scores={il90=1..}] run function ilprac:start/lvl90
-execute as @a[scores={il90=1..}] run function ilprac:prac_init
-execute as @a[scores={il90=1..}] run scoreboard players set @s il90 0
-execute as @a[scores={il_level=90}] run function ilprac:levels/lvl90
-
 execute as @a[scores={il91=1..}] run scoreboard players set @s il_level 91
 execute as @a[scores={il91=1..}] run function ilprac:start/lvl91
 execute as @a[scores={il91=1..}] run function ilprac:prac_init
 execute as @a[scores={il91=1..}] run scoreboard players set @s il91 0
 execute as @a[scores={il_level=91}] run function ilprac:levels/lvl91
-
-execute as @a[scores={il92=1..}] run scoreboard players set @s il_level 92
-execute as @a[scores={il92=1..}] run function ilprac:start/lvl92
-execute as @a[scores={il92=1..}] run function ilprac:prac_init
-execute as @a[scores={il92=1..}] run scoreboard players set @s il92 0
-execute as @a[scores={il_level=92}] run function ilprac:levels/lvl92
-
-execute as @a[scores={il93=1..}] run scoreboard players set @s il_level 93
-execute as @a[scores={il93=1..}] run function ilprac:start/lvl93
-execute as @a[scores={il93=1..}] run function ilprac:prac_init
-execute as @a[scores={il93=1..}] run scoreboard players set @s il93 0
-execute as @a[scores={il_level=93}] run function ilprac:levels/lvl93
 
 execute as @a[scores={il94=1..}] run scoreboard players set @s il_level 94
 execute as @a[scores={il94=1..}] run function ilprac:start/lvl94
@@ -592,24 +547,6 @@ execute as @a[scores={il97=1..}] run function ilprac:start/lvl97
 execute as @a[scores={il97=1..}] run function ilprac:prac_init
 execute as @a[scores={il97=1..}] run scoreboard players set @s il97 0
 execute as @a[scores={il_level=97}] run function ilprac:levels/lvl97
-
-execute as @a[scores={il98=1..}] run scoreboard players set @s il_level 98
-execute as @a[scores={il98=1..}] run function ilprac:start/lvl98
-execute as @a[scores={il98=1..}] run function ilprac:prac_init
-execute as @a[scores={il98=1..}] run scoreboard players set @s il98 0
-execute as @a[scores={il_level=98}] run function ilprac:levels/lvl98
-
-execute as @a[scores={il99=1..}] run scoreboard players set @s il_level 99
-execute as @a[scores={il99=1..}] run function ilprac:start/lvl99
-execute as @a[scores={il99=1..}] run function ilprac:prac_init
-execute as @a[scores={il99=1..}] run scoreboard players set @s il99 0
-execute as @a[scores={il_level=99}] run function ilprac:levels/lvl99
-
-execute as @a[scores={il100=1..}] run scoreboard players set @s il_level 100
-execute as @a[scores={il100=1..}] run function ilprac:start/lvl100
-execute as @a[scores={il100=1..}] run function ilprac:prac_init
-execute as @a[scores={il100=1..}] run scoreboard players set @s il100 0
-execute as @a[scores={il_level=100}] run function ilprac:levels/lvl100
 
 execute as @a[tag=il_finished] run function ilprac:unprac
 

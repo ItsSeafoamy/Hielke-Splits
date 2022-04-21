@@ -12,4 +12,7 @@ scoreboard players set @s seconds_il 0
 #clear l'inventaire
 clear @s
 
+#reset all the levels (gates and iron doors)
+function ilprac:reset_il_practice_levels
+
 scoreboard players set @s il_level 0

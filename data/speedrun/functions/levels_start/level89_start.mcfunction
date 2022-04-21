@@ -1,15 +1,15 @@
-tag @s remove level88
+tag @s remove level87
 tag @s add level89
-scoreboard players operation @s lvl_pb = @s lvl88_pb
-scoreboard players operation @s lvl_best = @s lvl88_best
-scoreboard players operation @s lvl_bpe = @s lvl88_bpe
+scoreboard players operation @s lvl_pb = @s lvl87_pb
+scoreboard players operation @s lvl_best = @s lvl87_best
+scoreboard players operation @s lvl_bpe = @s lvl87_bpe
 execute as @s run function speedrun:split
 
-scoreboard players operation @s lvl88_pb_temp = @s global_timer
+scoreboard players operation @s lvl87_pb_temp = @s global_timer
 
-execute if entity @s[tag=negative_delta_best] run scoreboard players operation @s lvl88_best < @s ticks_lvl_global
+execute if entity @s[tag=negative_delta_best] run scoreboard players operation @s lvl87_best < @s ticks_lvl_global
 
-execute if entity @s[tag=negative_delta_bpe] run scoreboard players operation @s lvl88_bpe < @s global_timer
+execute if entity @s[tag=negative_delta_bpe] run scoreboard players operation @s lvl87_bpe < @s global_timer
 
 scoreboard players set @s ticks_lvl_global 0
 tag @s remove positive_delta_best
