@@ -1,6 +1,6 @@
 tag @s add speedrun_reseted
 
-scoreboard players reset @s level 
+scoreboard players reset @s level
 
 tag @s remove positive_delta
 tag @s remove negative_delta
@@ -28,19 +28,3 @@ tag @s remove level4
 tag @s remove level5
 tag @s remove level6
 tag @s remove level7
-tag @s remove level8
-tag @s remove level9
-tag @s remove level10
-tag @s remove level11
-tag @s remove level12
-tag @s remove level13
-tag @s remove level14
-tag @s remove level15
-tag @s remove level16
-tag @s remove level17
-tag @s remove level18
-tag @s remove level19
-tag @s remove level20
-tag @s remove level21
-tag @s remove level22
-tag @s remove level23

@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 8,
+        "pack_format": 10,
         "description": "Datapack for splits feature in Hielke Maps"
     }
 }
